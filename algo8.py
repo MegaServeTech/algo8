@@ -6,7 +6,7 @@ import uuid
 st.set_page_config(page_title="Algo 8 noren", layout="wide")
 
 # Title and description
-st.title("Algo UI Orderbook Analysis")
+st.title("Algo 8 noren")
 st.markdown("Upload an Algo UI Orderbook Excel file to analyze trades for specified user IDs.")
 
 # User IDs
@@ -129,3 +129,4 @@ if uploaded_file is not None:
 else:
 
     st.info("Please upload an Excel file to begin analysis.")
+
