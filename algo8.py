@@ -3,7 +3,7 @@ import pandas as pd
 import uuid
 
 # Streamlit page configuration
-st.set_page_config(page_title="Algo UI Orderbook Analysis", layout="wide")
+st.set_page_config(page_title="Algo 8 noren", layout="wide")
 
 # Title and description
 st.title("Algo UI Orderbook Analysis")
@@ -127,4 +127,5 @@ if uploaded_file is not None:
             use_container_width=True
         )
 else:
+
     st.info("Please upload an Excel file to begin analysis.")
